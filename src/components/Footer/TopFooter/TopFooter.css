@@ -1,0 +1,22 @@
+.top_footer{
+    width: 96%;
+    margin: 0 17px;
+    position: relative;
+}
+
+@media(min-width: 770px){
+    
+}
+
+@media(min-width: 850px){
+    
+}
+
+@media(min-width: 1050px){
+    
+    .top_footer{
+        width: 980px;
+        margin: 0 auto;
+    }
+
+}
