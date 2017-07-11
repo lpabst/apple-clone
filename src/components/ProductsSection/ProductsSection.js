@@ -12,19 +12,19 @@ class ProductsSection extends Component {
         <section className='products_section'>
 
           <div className='product_container iphones'>
-            <img src={ iphones } className='' />
+            <img src={ iphones } />
           </div>
 
           <div className='product_container watches'>
-            <img src={ watches } className='watches' />
+            <img src={ watches } />
           </div>
 
           <div className='product_container imacs'>
-            <img src={ imacs } className='watches' />
+            <img src={ imacs } />
           </div>
 
           <div className='product_container accessories'>
-            <img src={ accessories } className='watches' />
+            <img src={ accessories } />
           </div>
 
         </section>
