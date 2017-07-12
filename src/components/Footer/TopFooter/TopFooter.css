@@ -2,10 +2,26 @@
     width: 96%;
     margin: 0 17px;
     position: relative;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.top_footer_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_footer_column{
+    width: 140px;
+    height: 300px;
+    border: 1px solid blue;
 }
 
 @media(min-width: 770px){
-    
+    .top_footer_list{
+        width: 90%;
+    }
 }
 
 @media(min-width: 850px){
@@ -18,5 +34,7 @@
         width: 980px;
         margin: 0 auto;
     }
+
+
 
 }
