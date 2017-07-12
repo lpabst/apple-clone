@@ -2,25 +2,23 @@
     width: 96%;
     margin: 0 17px;
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .top_footer_list{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .top_footer_column{
     width: 140px;
-    height: 300px;
-    border: 1px solid blue;
 }
 
 @media(min-width: 770px){
     .top_footer_list{
-        width: 90%;
+        width: 94%;
     }
 }
 

@@ -7,12 +7,12 @@ class FooterTopic extends Component {
 
     this.state = {
       'shop': ['Shop and Learn', 'Mac', 'iPad', 'iPhone', 'Watch', 'TV', 'Music', 'iTunes', 'HomePod', 'iPod', 'Accessories', 'Gift Cards'],
-      'store': ['Find a Store', 'Genius Bar', 'Today at Apple', 'Apple Camp', 'Field Trip', 'Apple Store App', 'Refurbished and Clearance', 'Financing', 'Reuse and Recycling', 'Order Status', 'Shopping Help'],
-      'education': ['Apple and Education', 'Shop for College'],
-      'business': ['Apple and Business', 'Shop for Business'],
-      'account': ['Manage Your Apple ID', 'Apple Store Account', 'iCloud.com'],
-      'values': ['Accessibility', 'Education', 'Environment', 'Inclusion and Diversity', 'Privacy', 'Supplier Responsibility'],
-      'about': ['Newsroom', 'Apple Leadership', 'Job Opportunities', 'Investors', 'Events', 'Contact Apple'],
+      'store': ['Apple Store', 'Find a Store', 'Genius Bar', 'Today at Apple', 'Apple Camp', 'Field Trip', 'Apple Store App', 'Refurbished and Clearance', 'Financing', 'Reuse and Recycling', 'Order Status', 'Shopping Help'],
+      'education': ['For Education', 'Apple and Education', 'Shop for College'],
+      'business': ['For Business', 'Apple and Business', 'Shop for Business'],
+      'account': ['Account', 'Manage Your Apple ID', 'Apple Store Account', 'iCloud.com'],
+      'values': ['Apple Values', 'Accessibility', 'Education', 'Environment', 'Inclusion and Diversity', 'Privacy', 'Supplier Responsibility'],
+      'about': ['About Apple', 'Newsroom', 'Apple Leadership', 'Job Opportunities', 'Investors', 'Events', 'Contact Apple'],
     }
   }
   

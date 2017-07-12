@@ -1,5 +1,43 @@
+
 .footer_topic{
-    width: 140px;
-    height: 100px;
+    width: 100%;
+    margin-top: 18px;
+    line-height: 12px;
+    font-size: 11px;
+    color: #555;
+}
+
+.footer_topic h1{
     border: 1px solid red;
+}
+
+.footer_topic p{
+    display: none;
+}
+
+
+@media(min-width: 750px){
+    .footer_topic{
+        width: 120px;
+        margin-top: 18px;
+        line-height: 12px;
+        font-size: 11px;
+        color: #555;
+    }
+
+    .footer_topic h1{
+        font-weight: bold;
+        color: black;
+    }
+
+    .footer_topic p{
+        display: block;
+        margin-top: 8px;
+    }
+}
+
+@media(min-width: 850px){
+    .footer_topic{
+        width: 140px;
+    }
 }
