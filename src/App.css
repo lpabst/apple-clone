@@ -5,4 +5,38 @@
   min-height: 250px;
 }
 
+#project_info{
+  width: 260px;
+  position: fixed;
+  font-size: 20px;
+  bottom: 50px;
+  right: 30px;
+  padding: 10px 10px 10px 10px;
+  background: #b44;
+  opacity: 0.6;
+  z-index: 999999;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 4px;
+}
 
+#project_info:hover{
+  opacity: 1;
+}
+
+#project_info h2{
+  margin: 0 auto;
+}
+
+#project_info p{
+  margin-top: 10px;
+}
+
+#project_description{
+  height: 0px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 18px;
+  transition: all 0.4s;
+}
