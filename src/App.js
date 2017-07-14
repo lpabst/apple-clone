@@ -36,7 +36,8 @@ class App extends Component {
               Functionality has not been built in, so items aren't clickable,
               but this clone is fully responsive, mimicking the Apple home
               page not only on all screen sizes, but also during transition
-              while resizing the screen. 
+              while resizing the screen. The project was built in React JSX,
+              using components for modularity.
             </p>
           </div>
         </div>
