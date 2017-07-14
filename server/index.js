@@ -7,4 +7,4 @@ const app = module.exports = express();
 app.use(bodyParser.json());
 app.use(express.static(__dirname + './../build'))
 
-app.listen(config.port,console.log("you are now connected on 3000, database should work too"));
+app.listen(config.port,console.log("you are now connected on" + config.port));
