@@ -11,12 +11,32 @@
     width: 98%;
     height: 27px;
     font-size: 12px;
-    color: #111;
+    color: #000;
+    opacity: 0.9;
     border-bottom: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer_topic h1:hover{
+    opacity: 1;
+}
+
+.footer_topic h1 span{
+    font-size: 15px;
+    position: absolute;
+    right: 12px;
+    top: 0px;
+    opacity: 0.8;
 }
 
 .footer_topic p{
     display: none;
+    cursor: pointer;
+}
+
+.footer_topic p:hover{
+    text-decoration: underline;
 }
 
 
@@ -36,6 +56,10 @@
         width: auto;
         height: auto;
         border-bottom: none;
+    }
+
+    .footer_topic h1 span{
+        display: none;
     }
 
     .footer_topic p{

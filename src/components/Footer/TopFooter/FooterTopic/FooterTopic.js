@@ -22,7 +22,7 @@ class FooterTopic extends Component {
     
     list = 
       <div>
-        <h1>{ this.state[showList][0] }</h1>
+        <h1>{ this.state[showList][0] } <span>+</span></h1>
         {
           this.state[showList].map( (item, i) => {
             return <p key={i} >{item}</p>
