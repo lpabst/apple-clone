@@ -33,9 +33,10 @@ class App extends Component {
               or a design handed to me by a design team. 
             </p>
             <p>
-              This clone is fully responsive, mimicking the Apple home
+              Functionality has not been built in, so items aren't clickable,
+              but this clone is fully responsive, mimicking the Apple home
               page not only on all screen sizes, but also during transition
-              while resizing the screen.
+              while resizing the screen. 
             </p>
           </div>
         </div>
