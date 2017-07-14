@@ -27,10 +27,12 @@ class App extends Component {
           <h2>Project Info: Click Here!</h2>
           <div id='project_description'>
             <p>
-              This project is a CSS only clone of the Apple home page.
+              This project is a "CSS only" clone of the Apple home page.
               The purpose of the project was to practice recreating a
               pixel perfect version of a design, whether it be a clone
-              or a design handed to me by a design team. 
+              or a design handed to me by a design team. Apple frequently 
+              updates the images on their home page, but the layout should 
+              still be the same!
             </p>
             <p>
               Functionality has not been built in, so items aren't clickable,
