@@ -19,15 +19,15 @@ class BottomFooter extends Component {
             <p className='copyright_p'>Copyright &copy; 2017 Apple Inc. All rights reserved.</p>
 
             <ul className='bottom_footer_list'>
-            <li>Privacy Policy</li>
-            <li>|</li>
-            <li>Terms of Use</li>
-            <li>|</li>
-            <li>Sales and Refunds</li>
-            <li>|</li>
-            <li>Legal</li>
-            <li>|</li>
-            <li>Site Map</li>
+              <li>Privacy Policy</li>
+              <li>|</li>
+              <li>Terms of Use</li>
+              <li>|</li>
+              <li>Sales and Refunds</li>
+              <li>|</li>
+              <li>Legal</li>
+              <li>|</li>
+              <li>Site Map</li>
             </ul>
 
         </section>

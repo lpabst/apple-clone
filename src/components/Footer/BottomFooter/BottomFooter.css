@@ -49,10 +49,11 @@
 }
 
 .bottom_footer_list{
-    width: 415px;
+    width: 205px;
     font-size: 11.3px;
     margin-top: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #666;
 }
@@ -60,6 +61,14 @@
 .bottom_footer_list li:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media(min-width: 500px){
+
+    .bottom_footer_list{
+        width: 415px;
+    }
+
 }
 
 @media(min-width: 770px){
